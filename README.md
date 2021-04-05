@@ -26,7 +26,7 @@ React sample application bootstrapped with [Create React App](https://github.com
 
 `REACT_APP_SIGNATURE_ENDPOINT=xxxxx` [Signature Generation](https://github.com/zoom/websdk-sample-signature-node.js)
 
-`REACT_APP_LEAVE_URL=xxxxxx` (ex: localhost:300)
+`REACT_APP_LEAVE_URL=xxxxxx` (ex: localhost:3000)
 
 `REACT_APP_USERNAME=xxxxxx` (ex: brandon)
 
