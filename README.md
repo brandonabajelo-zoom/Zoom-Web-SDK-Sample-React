@@ -1,6 +1,6 @@
 # Zoom-Web-SDK-Sample-React
 
-React sample application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) which utilizes the [Zoom Web SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/web) to start and join meetings and webinars. This project utilizes modern ES6 syntax and concepts so if you are unfamiliar with that, please review the official [Javscript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript) first.
+React sample application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) which utilizes the [Zoom Web SDK](https://marketplace.zoom.us/docs/sdk/native-sdks/web) to start and join meetings. This project utilizes modern ES6 syntax and concepts so if you are unfamiliar with that, please review the official [Javscript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript) first.
 
 ## Installation
 
