@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import logo from '../zoom.svg'
+import logo from '../Images/zoom.svg'
 
 export default function Nav() {
   return (
@@ -13,9 +13,9 @@ export default function Nav() {
             Web SDK Sample React App
           </div>
         </Link>
-        <Link to="/join">
+        <Link to="/web_meeting">
           <div className="navbar-brand">
-            <button type="button" className="btn btn-outline-primary">Join Meeting</button>
+            <button type="button" className="btn btn-outline-primary">Web Meeting</button>
           </div>
         </Link>
       </div>

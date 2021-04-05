@@ -1,9 +1,6 @@
 import './App.css';
 import { Switch, Route } from "react-router-dom";
-
-import Header from './Components/Header';
-import Home from './Components/Home';
-import JoinMeeting from './Components/JoinMeeting';
+import { Header, Home, WebMeeting } from './Components';
 
 export default function App() {
   return (
@@ -11,8 +8,8 @@ export default function App() {
         <main>
           <Header />
           <Switch>
-            <Route path="/join">
-              <JoinMeeting />
+            <Route path="/web_meeting">
+              <WebMeeting />
             </Route>
             <Route path="/">
               <Home />

@@ -3,20 +3,10 @@ body {
   height: 100%;
 }
 
-.rotate-logo {
-  animation: rotation 8s infinite linear;
+.logo {
   margin-top: 30vh;
   max-width: 30vw;
   height: auto;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .flex-container {
@@ -25,9 +15,10 @@ body {
   justify-content: center;
   margin: 0 auto;
   width: 50%;
+  margin-bottom: 20px;
 }
 
-.flex-container > input {
+.flex-container > input, select {
   margin-right: 10px;
 }
 
@@ -41,4 +32,16 @@ body {
 .button {
   background-color: none;
   color: #2D8CFF;
+}
+
+.flex-radio {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
 }
